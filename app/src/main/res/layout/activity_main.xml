@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_pink"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="200dp"
+        app:cardCornerRadius="10dp"
+        android:background="@color/deep_purple"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:drawableStart="@drawable/focused_name_icon"
+                android:background="@drawable/custom_input_background"
+                android:drawablePadding="5dp"
+                android:inputType="text"
+                android:hint="@string/name" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/custom_input_background"
+                android:drawableStart="@drawable/focused_email_icon"
+                android:drawablePadding="5dp"
+                android:layout_margin="10dp"
+
+                android:inputType="textEmailAddress"
+                android:hint="@string/e_mail"
+                />
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:focusable="true"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/custom_input_background"
+                android:drawableStart="@drawable/focused_user_icon"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/username" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/custom_input_background"
+                android:drawableStart="@drawable/focused_lock_icon"
+                android:drawablePadding="10dp"
+                android:layout_margin="10dp"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/sign_up"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="90dp"
+                android:layout_marginTop="50dp"
+                android:background = "@drawable/custom_input_background"
+                android:text="@string/sign_up" />
+
+            <TextView
+                android:id="@+id/log_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_margin="5dp"
+                android:text="@string/already_user" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

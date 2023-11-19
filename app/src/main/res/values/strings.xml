@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LOGIN</string>
+    <string name="welcome">Welcome</string>
+    <string name="button">Button</string>
+    <string name="let_s_begin">Let\'s Begin</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="username">UserName</string>
+    <string name="log_in_">Log In</string>
+    <string name="already_user">Already a user? Log In</string>
+    <string name="shubhash_singh">Shubhash Singh</string>
+</resources>
